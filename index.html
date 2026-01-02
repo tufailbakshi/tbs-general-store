@@ -270,3 +270,139 @@ header {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TBs General Store</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+
+    .header {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #34495e;
+    }
+
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav a:hover {
+        background-color: #2c3e50;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .product-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 180px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .product-card button {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    .product-card button:hover {
+        background-color: #2980b9;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Welcome to TBs General Store</h1>
+    <p>Your one-stop shop for everyday essentials!</p>
+</div>
+
+<div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Groceries</a>
+    <a href="#">Household</a>
+    <a href="#">Electronics</a>
+    <a href="#">Contact</a>
+</div>
+
+<h2 style="text-align:center; margin-top: 20px;">Featured Products</h2>
+<div class="products">
+    <div class="product-card">
+        <img src="images/milk.jpg" alt="Fresh Milk">
+        <h3>Fresh Milk</h3>
+        <p>$2.50</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/bread.jpg" alt="Whole Wheat Bread">
+        <h3>Whole Wheat Bread</h3>
+        <p>$1.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/soap.jpg" alt="Laundry Soap">
+        <h3>Laundry Soap</h3>
+        <p>$3.00</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/phone.jpg" alt="Basic Phone">
+        <h3>Basic Phone</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/detergent.jpg" alt="Floor Detergent">
+        <h3>Floor Detergent</h3>
+        <p>$4.50</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/lamp.jpg" alt="Desk Lamp">
+        <h3>Desk Lamp</h3>
+        <p>$15.00</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+</body>
+</html>
+
